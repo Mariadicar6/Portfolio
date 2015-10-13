@@ -63,7 +63,7 @@ header #header-sroll {
   .hero-image .btn-default {
     background-color: #80c8b8;
     border: none;
-    margin-top: 30px;
+    margin-top: 3%;
     font-size: 1.3em; }
   .hero-image .btn-default:hover {
     background-color: #59BDA7;
@@ -94,14 +94,12 @@ header #header-sroll {
     height: 450px; }
 
 .portfolio {
-  height: 100%;
   background-color: #fff;
   padding: 100px 0px; }
   .portfolio img {
     width: 100%; }
 
 .contact {
-  height: 100%;
   background: url("../img/fondoFinal.png") repeat;
   padding: 100px 0px; }
 

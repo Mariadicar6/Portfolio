@@ -98,7 +98,7 @@ header {
         .btn-default{
             background-color: $jade;
             border: none;
-            margin-top: 30px;
+            margin-top: 3%;
             font-size: 1.3em;
         }
 
@@ -130,7 +130,6 @@ header {
 .about-me{
     background-color: #fff;
     padding: 100px 0%;
-
     img{
         width: 100%;
     }
@@ -147,7 +146,6 @@ header {
 }
 
 .portfolio{
-    height: 100%;
     background-color: #fff;
     padding: 100px 0px;
 
@@ -157,7 +155,6 @@ header {
 }
 
 .contact{
-    height: 100%;
     background: url("../img/fondoFinal.png") repeat;
     padding: 100px 0px;
 }
