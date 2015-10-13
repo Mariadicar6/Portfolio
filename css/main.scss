@@ -28,22 +28,22 @@ header {
         .navbar-default{
             background-color: transparent;
             border-color: transparent;
+
+            .navbar-toggle {
+                border-color: transparent;
+
+                .icon-bar {
+                    background-color: #fff;
+                }
+            }
+
+            .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+                background-color: $jade-oscuro;
+            }
         }
 
         .navbar{
             margin-top: 0%;            
-        }
-
-        .navbar-default .navbar-toggle {
-            border-color: transparent;
-        }
-
-        .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
-            background-color: $jade-oscuro;
-        }
-
-        .navbar-default .navbar-toggle .icon-bar {
-            background-color: #fff;
         }
 
         a{

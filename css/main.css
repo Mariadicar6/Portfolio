@@ -19,14 +19,14 @@ header #header-sroll {
   header #header-sroll .navbar-default {
     background-color: transparent;
     border-color: transparent; }
+    header #header-sroll .navbar-default .navbar-toggle {
+      border-color: transparent; }
+      header #header-sroll .navbar-default .navbar-toggle .icon-bar {
+        background-color: #fff; }
+    header #header-sroll .navbar-default .navbar-toggle:focus, header #header-sroll .navbar-default .navbar-default .navbar-toggle:hover {
+      background-color: #59BDA7; }
   header #header-sroll .navbar {
     margin-top: 0%; }
-  header #header-sroll .navbar-default .navbar-toggle {
-    border-color: transparent; }
-  header #header-sroll .navbar-default .navbar-toggle:focus, header #header-sroll .navbar-default .navbar-toggle:hover {
-    background-color: #59BDA7; }
-  header #header-sroll .navbar-default .navbar-toggle .icon-bar {
-    background-color: #fff; }
   header #header-sroll a {
     color: white;
     text-decoration: none;
