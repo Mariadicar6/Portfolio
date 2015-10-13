@@ -87,7 +87,6 @@ header #header-sroll {
     width: 100%; }
 
 .skill {
-  height: 100%;
   background-color: #eee;
   padding: 100px 0px; }
   .skill img {
@@ -102,6 +101,22 @@ header #header-sroll {
 .contact {
   background: url("../img/fondoFinal.png") repeat;
   padding: 100px 0px; }
+  .contact .form-control {
+    background-color: transparent;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    box-shadow: none;
+    font-size: 1em; }
+  .contact .form-control:nth-child(1) {
+    width: 300px;
+    display: inline-block; }
+  .contact .form-control:nth-child(2) {
+    width: 120px;
+    display: inline-block; }
+  .contact .form-control:nth-child(3) {
+    width: 300px;
+    display: inline-block; }
 
 .vertical-centered-text {
   -ms-display: flex;
