@@ -15,13 +15,22 @@ header #header-sroll {
   -webkit-transition: all 0.3s ease-out;
   -o-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
-  line-height: 95px;
   z-index: 1000000000; }
+  header #header-sroll .navbar-default {
+    background-color: transparent;
+    border-color: transparent; }
+  header #header-sroll .navbar {
+    margin-top: 0%; }
+  header #header-sroll .navbar-default .navbar-toggle {
+    border-color: transparent; }
+  header #header-sroll .navbar-default .navbar-toggle:focus, header #header-sroll .navbar-default .navbar-toggle:hover {
+    background-color: #59BDA7; }
+  header #header-sroll .navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff; }
   header #header-sroll a {
     color: white;
     text-decoration: none;
-    font-size: 1.5em;
-    padding: 1%; }
+    font-size: 1.5em; }
   header #header-sroll a:hover {
     color: #DA4C68;
     text-decoration: none; }
@@ -130,5 +139,12 @@ header #header-sroll {
 
 p {
   font-size: 1.3em; }
+
+@media screen and (min-width: 361px) {
+  .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    background-color: transparent; } }
+@media screen and (max-width: 360px) {
+  .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    background-color: #80c8b8; } }
 
 /*# sourceMappingURL=main.css.map */
