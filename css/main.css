@@ -146,7 +146,11 @@ p {
 
 @media screen and (min-width: 361px) {
   .navbar-default .navbar-collapse, .navbar-default .navbar-form {
-    background-color: transparent; } }
+    background-color: transparent; }
+
+  .contact {
+    padding-left: 25%;
+    padding-right: 25%; } }
 @media screen and (max-width: 360px) {
   .navbar-default .navbar-collapse, .navbar-default .navbar-form {
     background-color: #80c8b8; }
