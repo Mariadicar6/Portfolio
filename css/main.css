@@ -89,8 +89,31 @@ header #header-sroll {
 .skill {
   background-color: #eee;
   padding: 100px 0px; }
-  .skill img {
-    height: 450px; }
+  .skill .data-logo-loader {
+    display: table;
+    margin: 35px auto; }
+  .skill .data-logo-loader hr:first-child {
+    display: block;
+    margin: auto;
+    width: 746px;
+    height: 534px;
+    background-image: url("../img/silueta.png");
+    background-repeat: no-repeat;
+    border: none;
+    opacity: 0.5; }
+  .skill .data-logo-loader hr:last-child {
+    transition: width 1s;
+    position: absolute;
+    display: block;
+    margin: auto;
+    width: 0;
+    height: 534px;
+    transform: translateY(-100%);
+    background-image: url("../img/silueta.png");
+    background-repeat: no-repeat;
+    border: none; }
+  .skill .data-logo-loader:hover hr:last-child {
+    width: 746px; }
 
 .portfolio {
   background-color: #fff;

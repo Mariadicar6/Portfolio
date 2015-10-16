@@ -138,9 +138,40 @@ header {
 .skill{
     background-color: #eee;
     padding: 100px 0px;
+    
 
-    img{
-        height: 450px;
+    .data-logo-loader{
+       display: table;
+       margin: 35px auto
+    }
+    .data-logo-loader hr:first-child
+    {
+        display: block;
+        margin: auto;
+        width: 746px; 
+        height: 534px;      
+        background-image: url("../img/silueta.png");
+        background-repeat: no-repeat;
+        border: none;        
+        opacity: 0.5
+    }
+
+    .data-logo-loader hr:last-child
+    {
+        transition: width 1s;        
+        position: absolute;
+        display: block;
+        margin: auto;
+        width: 0; 
+        height: 534px;      
+        transform: translateY(-100%);      
+        background-image: url("../img/silueta.png");
+        background-repeat: no-repeat;
+        border: none
+    }
+
+    .data-logo-loader:hover hr:last-child {
+        width: 746px
     }
 }
 
@@ -195,7 +226,10 @@ header {
 
 .pt-2{
     padding-top: 2%;
+    
 }
+
+
 
 .pd-5{
     padding: 5%;
