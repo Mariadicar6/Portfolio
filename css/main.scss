@@ -8,6 +8,10 @@ html, body{
     font-family: 'Josefin Sans', sans-serif;
 }
 
+h2{
+    font-weight: 900;
+}
+
 header {          
     #header-sroll {
     position:fixed;
@@ -92,7 +96,6 @@ header {
 
         h2{
             color: $rosado-oscuro;
-            font-weight: 900;
         }
 
         .btn-default{
@@ -132,6 +135,30 @@ header {
     padding: 100px 0%;
     img{
         width: 100%;
+    }
+
+    .lg{
+        font-size: 2em;
+        color: $rosado-oscuro;
+    }
+    .md{
+        font-size: 1.6em;        
+    }
+
+    span{
+        &:nth-child(2){
+            color: $jade-oscuro;
+        }
+        &:nth-child(3){
+            color: $rosado;
+        }
+        &:nth-child(4){
+            color: $rosado-oscuro;
+        }
+    }
+
+    h6,cite{
+        color: #6E6E6E;
     }
 }
 
@@ -195,6 +222,8 @@ header {
         border-right: none;
         box-shadow: none;
         font-size: 1em;
+        text-align: center;
+        height: 27px;
     }
 
     .form-control:nth-child(1){
@@ -208,6 +237,20 @@ header {
     .form-control:nth-child(3){
         width: 300px;
         display: inline-block;
+    }
+
+    .btn-default{
+        background-color: $rosado;
+        border: none;
+        margin-top: 3%;
+        font-size: 1.3em;
+        color: white;
+    }
+
+    .btn-default:hover{
+        background-color: $rosado-oscuro;
+        color: white;
+        
     }
 }
 
@@ -226,10 +269,7 @@ header {
 
 .pt-2{
     padding-top: 2%;
-    
 }
-
-
 
 .pd-5{
     padding: 5%;

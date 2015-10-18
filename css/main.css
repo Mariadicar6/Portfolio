@@ -2,6 +2,9 @@ html, body {
   height: 100%;
   font-family: 'Josefin Sans', sans-serif; }
 
+h2 {
+  font-weight: 900; }
+
 header #header-sroll {
   position: fixed;
   height: 75px;
@@ -58,8 +61,7 @@ header #header-sroll {
     color: #F45A79;
     font-family: 'Pacifico', cursive; }
   .hero-image h2 {
-    color: #DA4C68;
-    font-weight: 900; }
+    color: #DA4C68; }
   .hero-image .btn-default {
     background-color: #80c8b8;
     border: none;
@@ -85,6 +87,19 @@ header #header-sroll {
   padding: 100px 0%; }
   .about-me img {
     width: 100%; }
+  .about-me .lg {
+    font-size: 2em;
+    color: #DA4C68; }
+  .about-me .md {
+    font-size: 1.6em; }
+  .about-me span:nth-child(2) {
+    color: #59BDA7; }
+  .about-me span:nth-child(3) {
+    color: #F45A79; }
+  .about-me span:nth-child(4) {
+    color: #DA4C68; }
+  .about-me h6, .about-me cite {
+    color: #6E6E6E; }
 
 .skill {
   background-color: #eee;
@@ -130,7 +145,9 @@ header #header-sroll {
     border-top: none;
     border-right: none;
     box-shadow: none;
-    font-size: 1em; }
+    font-size: 1em;
+    text-align: center;
+    height: 27px; }
   .contact .form-control:nth-child(1) {
     width: 300px;
     display: inline-block; }
@@ -140,6 +157,15 @@ header #header-sroll {
   .contact .form-control:nth-child(3) {
     width: 300px;
     display: inline-block; }
+  .contact .btn-default {
+    background-color: #F45A79;
+    border: none;
+    margin-top: 3%;
+    font-size: 1.3em;
+    color: white; }
+  .contact .btn-default:hover {
+    background-color: #DA4C68;
+    color: white; }
 
 .vertical-centered-text {
   -ms-display: flex;
