@@ -25,13 +25,13 @@
 	-moz-border-radius: 3px;
 	-webkit-border-radius: 3px;
 	border-radius: 3px;
-	background: #80c8b8;
+	background: #59BDA7;
 	position:relative;
 	margin-bottom:30px;
 }
 .skillst1 .count-bar{
 	position:absolute;
-	background-color: #59BDA7;
+	background-color: #49A28F;
 	height:10px;
 	left:0;
 	bottom:0;
