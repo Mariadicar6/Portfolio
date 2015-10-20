@@ -66,7 +66,8 @@ header #header-sroll {
     background-color: #80c8b8;
     border: none;
     margin-top: 3%;
-    font-size: 1.3em; }
+    font-size: 1.3em;
+    color: white; }
   .hero-image .btn-default:hover {
     background-color: #59BDA7;
     border: none; }
@@ -135,10 +136,27 @@ header #header-sroll {
   padding: 100px 0px; }
   .portfolio img {
     width: 100%; }
+  .portfolio .relative {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    max-width: 400px; }
+  .portfolio .caption {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background: url("../img/portafolio/E-Comunidad.png");
+    background-size: cover;
+    -webkit-transition: all ease .5s;
+    -moz-transition: all ease .5s;
+    transition: all ease .5s; }
+  .portfolio .caption:hover {
+    opacity: 1; }
 
 .contact {
   background: url("../img/fondoFinal.png") repeat;
-  padding: 100px 0px; }
+  padding: 100px 1px; }
   .contact .form-control {
     background-color: transparent;
     border-left: none;
