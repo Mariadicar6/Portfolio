@@ -1,6 +1,5 @@
 .wraper{
 	width:100%;
-	margin:50px auto;
 }
 
 .wraper:before,
@@ -31,14 +30,14 @@
 }
 .skillst1 .count-bar{
 	position:absolute;
-	background-color: #49A28F;
+	background-color: #F45A79;
 	height:10px;
 	left:0;
 	bottom:0;
 }
 .skillst1 .title{
 	font-size:15px;
-	font-weight:400;
+	font-weight:900;
 	padding-left:12px;
 	line-height:40px;
 	text-transform:uppercase;

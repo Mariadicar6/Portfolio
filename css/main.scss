@@ -50,6 +50,24 @@ header {
             margin-top: 0%;            
         }
 
+        .logo{
+            background-color: $rosado-oscuro;
+            height: 30px;
+            width: 30px;
+            border-radius:50%;
+
+            img{
+                width: 100%;
+                border-radius:50%;
+            }
+        }
+
+        .navbar-brand{
+            color: $rosado;
+            font-family: 'Pacifico', cursive;
+        }
+
+
         a{
             color: white;
             text-decoration: none;
@@ -133,7 +151,7 @@ header {
 
 .about-me{
     background-color: #fff;
-    padding: 100px 0%;
+    padding: 10% 0%;
     img{
         width: 100%;
     }
@@ -165,20 +183,24 @@ header {
 
 .skill{
     background-color: #eee;
-    padding: 100px 0px;
+    padding: 10% 0%;
+
+    h2{
+        padding-bottom: 5%;
+    }
 }   
 
 
 .portfolio{
     background-color: #fff;
-    padding: 100px 0px;
+    padding: 10% 0px;
 
     img{
         width: 100%;
         border: 1px solid $jade-oscuro;
         }
     .relative{
-          display: block;
+        display: block;
         position: relative;
         margin: 0 auto;
         max-width: 400px;
@@ -217,7 +239,8 @@ header {
 
 .contact{
     background: url("../img/fondoFinal.png") repeat;
-    padding: 100px 1px;
+    padding: 10% 0px;
+    background-attachment: fixed;
 
     .form-control{
         background-color: transparent;
@@ -306,14 +329,23 @@ p{
     .about-me,.skill,.portfolio,{
         height: 100%;
     }
+
+    .portfolio h2{
+        padding-bottom: 4%;
+    }
     
 }
 @media screen and (max-width: 360px) {
     .navbar-default .navbar-collapse, .navbar-default .navbar-form {
         background-color: $jade;
     }
+
     *{
         font-size: 12px;
+    }
+
+    .contact{
+        padding: 10% 5%;
     }
 }
 

@@ -31,6 +31,17 @@ header #header-sroll {
       background-color: #59BDA7; }
   header #header-sroll .navbar {
     margin-top: 0%; }
+  header #header-sroll .logo {
+    background-color: #DA4C68;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%; }
+    header #header-sroll .logo img {
+      width: 100%;
+      border-radius: 50%; }
+  header #header-sroll .navbar-brand {
+    color: #F45A79;
+    font-family: 'Pacifico', cursive; }
   header #header-sroll a {
     color: white;
     text-decoration: none;
@@ -85,7 +96,7 @@ header #header-sroll {
 
 .about-me {
   background-color: #fff;
-  padding: 100px 0%; }
+  padding: 10% 0%; }
   .about-me img {
     width: 100%; }
   .about-me .lg {
@@ -104,11 +115,13 @@ header #header-sroll {
 
 .skill {
   background-color: #eee;
-  padding: 100px 0px; }
+  padding: 10% 0%; }
+  .skill h2 {
+    padding-bottom: 5%; }
 
 .portfolio {
   background-color: #fff;
-  padding: 100px 0px; }
+  padding: 10% 0px; }
   .portfolio img {
     width: 100%;
     border: 1px solid #59BDA7; }
@@ -140,7 +153,8 @@ header #header-sroll {
 
 .contact {
   background: url("../img/fondoFinal.png") repeat;
-  padding: 100px 1px; }
+  padding: 10% 0px;
+  background-attachment: fixed; }
   .contact .form-control {
     background-color: transparent;
     border-left: none;
@@ -207,13 +221,19 @@ p {
     padding-right: 25%; }
 
   .about-me, .skill, .portfolio {
-    height: 100%; } }
+    height: 100%; }
+
+  .portfolio h2 {
+    padding-bottom: 4%; } }
 @media screen and (max-width: 360px) {
   .navbar-default .navbar-collapse, .navbar-default .navbar-form {
     background-color: #80c8b8; }
 
   * {
-    font-size: 12px; } }
+    font-size: 12px; }
+
+  .contact {
+    padding: 10% 5%; } }
 p {
   font-size: 1.3em; }
 
