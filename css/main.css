@@ -145,6 +145,15 @@ header #header-sroll {
   .portfolio .Free {
     background: url("../img/portafolio/Freelancer.png");
     background-size: cover; }
+  .portfolio .Flat {
+    background: url("../img/portafolio/Flat-theme.png");
+    background-size: cover; }
+  .portfolio .Primes {
+    background: url("../img/portafolio/Primes.png");
+    background-size: cover; }
+  .portfolio .Dashy {
+    background: url("../img/portafolio/Dashy.png");
+    background-size: cover; }
   .portfolio .caption:hover {
     opacity: 1; }
 
@@ -219,14 +228,14 @@ p {
     font-size: 12px; } }
 @media screen and (min-width: 1200px) {
   .contact {
-    padding-left: 25%;
-    padding-right: 25%; }
+    padding: 10% 25%; }
 
-  .about-me, .skill, .portfolio {
-    height: 100%; }
+  .about-me, .skill {
+    height: 100%;
+    padding: 8% 0%; }
 
-  .about-me h2, .skill h2, .portfolio h2 {
-    padding: 5% 0%; }
+  .portfolio {
+    padding: 8% 0%; }
 
   .portfolio h2 {
     padding-bottom: 4%; } }
