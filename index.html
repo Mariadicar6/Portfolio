@@ -1,11 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<title>María Díaz Cárdenas</title>
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Scrolling Nav - Start Bootstrap Template</title>
+
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/scrolling-nav.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
@@ -13,102 +19,106 @@
     <link rel="shortcut icon" href="images/ico/favicon.png">
     <link href="images/ico/favicon.ico" rel="shortcut icon" type="image/x-icon">
     <link href="images/ico/favicon.ico" rel="icon" type="image/x-icon">
-    
 </head>
-<body>	
-	<header>	  
-	  	<div id="header-sroll">
-	  		<nav class="navbar navbar-default">
-			  <div class="container">
-			    <div class="navbar-header">
-			      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-			        <span class="sr-only">Toggle navigation</span>
-			        <span class="icon-bar"></span>
-			        <span class="icon-bar"></span>
-			        <span class="icon-bar"></span>
-			      </button>
-			      <a class="navbar-brand" href="#">
-                    <!-- <div class="logo">
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">MDC</a>
+            </div>
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="hidden">
+                        <a class="page-scroll" href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">Sobre mi</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#skill">Habilidades</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#portfolio">Portafolio</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero-image vertical-centered-text" id="intro">
+        <div class="social-media hidden-xs">
+            <a href="https://pe.linkedin.com/pub/maría-de-los-ángeles-díaz-cárdenas/108/2ab/a02" target="_blank"><img src="img/in.png" alt=""></a>
+            <a href=""><img src="img/git.png" alt=""></a>
+            <a href=""><img src="img/db.png" alt=""></a>
+            <a href=""><img src="img/tw.png" alt=""></a>
+            <a href=""><img src="img/yt.png" alt=""></a>
+        </div>
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-sm-12">
+                    <div class="circle">
                         <img src="img/Foto3.png" alt="">
-                    </div> -->         
-                    MDC
-                  </a>
-			    </div>
-			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-			      <ul class="nav navbar-nav navbar-right">
-			        <li><a href="#hero-image" class="smooth">Inicio</a></li>
-			        <li><a href="#about-me" class="smooth">Sobre mi</a></li>
-			        <li><a href="#skill" class="smooth">Habilidades</a></li>
-			        <li><a href="#portfolio" class="smooth">Portafolio</a></li>
-			        <li><a href="#contact" class="smooth">Contacto</a></li>
-			      </ul>
-			    </div>
-			  </div>
-			</nav>
-		</div>
-	</header>
-	<section class="hero-image vertical-centered-text" id="hero-image">
-		<div class="social-media hidden-xs">
-			<a href="https://pe.linkedin.com/pub/maría-de-los-ángeles-díaz-cárdenas/108/2ab/a02" target="_blank"><img src="img/in.png" alt=""></a>
-			<a href=""><img src="img/git.png" alt=""></a>
-			<a href=""><img src="img/db.png" alt=""></a>
-			<a href=""><img src="img/tw.png" alt=""></a>
-			<a href=""><img src="img/yt.png" alt=""></a>
-		</div>
-		<div class="container">
-			<div class="row text-center">
-				<div class="col-sm-12">
-					<div class="circle">
-						<img src="img/Foto3.png" alt="">
-					</div>
-					<h1>María de los Ángeles</h1>
-					<h1>Díaz Cárdenas</h1>
-					<h2>Creative Front-End Developer</h2>
-					<div class="social-media-xs visible-xs">
-						<a href="https://pe.linkedin.com/pub/maría-de-los-ángeles-díaz-cárdenas/108/2ab/a02" target="_blank"><img src="img/in.png" alt=""></a>
-						<a href=""><img src="img/git.png" alt=""></a>
-						<a href=""><img src="img/db.png" alt=""></a>
-						<a href=""><img src="img/tw.png" alt=""></a>
-						<a href=""><img src="img/yt.png" alt=""></a>
-					</div>
-					<a href="#portfolio" type="button" class="btn btn-default">Portafolio</a>
-				</div>
-			</div>
-		</div>
-	</section>
-	<section class="about-me vertical-centered-text" id="about-me">
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-9 col-xs-12 text-center pr-7">
-					<h2>Sobre mi</h2>
-					<p><span class="lg">Hola</span>, mi nombre es María, soy desarrolladora web y estudiante de ingeniería informática. Me encanta el <span class="md">desarrollo Front-End</span> y me gusta cumplir <span class="md">retos</span> nuevos, pero sobre todo ayudar a los que confian en mí a darle un <span class="md">valor agregado</span> a su trabajo.</p><br>
-					<blockquote class="blockquote-reverse">
-					  <h6>Nada grande se ha hecho en el mundo sin una gran pasión.</h6>
-					  <cite title="Source Title">Friedrich Hegel</cite>
-					</blockquote>
-				</div>
-				<div class="col-sm-3 col-xs-12">
-					<div class="row">
-						<div class="col-sm-12 col-xs-12 pd-0">
-							<img src="img/sobre-mi-1.jpg" alt="">
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-sm-12 col-xs-12 pd-0 hidden-xs">
-							<img src="img/img1.jpg" alt="">
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<section class="skill" id="skill">
-		<div class="container">
-			<div class="row text-center">
-				<div class="col-sm-12">
-					<h2>Habilidades</h2>					
-				</div>
-			</div>
+                    </div>
+                    <h1>María de los Ángeles</h1>
+                    <h1>Díaz Cárdenas</h1>
+                    <h2>Creative Front-End Developer</h2>
+                    <div class="social-media-xs visible-xs">
+                        <a href="https://pe.linkedin.com/pub/maría-de-los-ángeles-díaz-cárdenas/108/2ab/a02" target="_blank"><img src="img/in.png" alt=""></a>
+                        <a href=""><img src="img/git.png" alt=""></a>
+                        <a href=""><img src="img/db.png" alt=""></a>
+                        <a href=""><img src="img/tw.png" alt=""></a>
+                        <a href=""><img src="img/yt.png" alt=""></a>
+                    </div>
+                    <a href="#portfolio" class="btn btn-default page-scroll">Portafolio</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="about-me vertical-centered-text" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-9 col-xs-12 text-center pr-7">
+                    <h2>Sobre mi</h2>
+                    <p><span class="lg">Hola</span>, mi nombre es María, soy desarrolladora web y estudiante de ingeniería informática. Me encanta el <span class="md">desarrollo Front-End</span> y me gusta cumplir <span class="md">retos</span> nuevos, pero sobre todo ayudar a los que confian en mí a darle un <span class="md">valor agregado</span> a su trabajo.</p><br>
+                    <blockquote class="blockquote-reverse">
+                      <h6>Nada grande se ha hecho en el mundo sin una gran pasión.</h6>
+                      <cite title="Source Title">Friedrich Hegel</cite>
+                    </blockquote>
+                </div>
+                <div class="col-sm-3 col-xs-12">
+                    <div class="row">
+                        <div class="col-sm-12 col-xs-12 pd-0">
+                            <img src="img/sobre-mi-1.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12 col-xs-12 pd-0 hidden-xs">
+                            <img src="img/img1.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="skill" id="skill">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-sm-12">
+                    <h2>Habilidades</h2>                    
+                </div>
+            </div>
             <div class="row">
                 <div class="col-lg-6 col-xs-12">
                     <div class="wraper">
@@ -171,15 +181,16 @@
                     </div>
                 </div>
             </div>
-		</div>
-	</section>
-	<section class="portfolio" id="portfolio">
-		<div class="container">
-			<div class="row text-center">
-				<div class="col-sm-12">
-					<h2>Portfolio</h2>
-				</div>
-			</div>
+        </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-sm-12">
+                    <h2>Portfolio</h2>
+                </div>
+            </div>
             <div class="row mt-2">   
                 <div class="col-sm-4 mt-2">
                     <a href="http://mariadicar6.github.io/Freelancer/" target="_blank">
@@ -234,32 +245,33 @@
 
             </div>
         </div>
-	</section>
-	<section class="contact" id="contact">
-		<div class="">
-			<div class="row text-center">
-				<div class="col-sm-12">
-					<h2>Contacto</h2>
-					<p>Hola, mi nombre es 
-					<input type="text" class="form-control">
-					me gustaría realizar un proyecto contigo, mi número de contacto es
-					<input type="text" class="form-control" placeholder="999 999 999">
-					y mi correo es 
-					<input type="text" class="form-control" placeholder="ejemplo@mail.com">
-					Espero contactar contigo a la brevedad y comenzar mi proyecto.</p>
-					<button class="btn btn-default" type="submit">Estamos en contacto</button>
-				</div>
-			</div>
-		</div>
-	</section>
+    </section>
     
+    <section class="contact" id="contact">
+        <div class="">
+            <div class="row text-center">
+                <div class="col-sm-12">
+                    <h2>Contacto</h2>
+                    <p>Hola, mi nombre es 
+                    <input type="text" class="form-control">
+                    me gustaría realizar un proyecto contigo, mi número de contacto es
+                    <input type="text" class="form-control" placeholder="999 999 999">
+                    y mi correo es 
+                    <input type="text" class="form-control" placeholder="ejemplo@mail.com">
+                    Espero contactar contigo a la brevedad y comenzar mi proyecto.</p>
+                    <button class="btn btn-default" type="submit">Estamos en contacto</button>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <script src="js/jquery.js" type="text/javascript"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/scrolling-nav.js"></script>
     <script src="lib/jquery.appear/jquery.appear.js" type="text/javascript"></script>
     <script src="js/custom.js" type="text/javascript"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/main.js"></script>
-    
-
+    <script src="js/main.js"></script>
 </body>
+
 </html>

@@ -5,55 +5,6 @@ html, body {
 h2 {
   font-weight: 900; }
 
-header #header-sroll {
-  position: fixed;
-  height: 75px;
-  background: #80c8b8;
-  left: 0;
-  top: 0;
-  float: left;
-  width: 100%;
-  -ms-transition: all 0.3s ease-out;
-  -moz-transition: all 0.3s ease-out;
-  -webkit-transition: all 0.3s ease-out;
-  -o-transition: all 0.3s ease-out;
-  transition: all 0.3s ease-out;
-  z-index: 1000000000;
-  padding-top: 1%; }
-  header #header-sroll .navbar-default {
-    background-color: transparent;
-    border-color: transparent; }
-    header #header-sroll .navbar-default .navbar-toggle {
-      border-color: transparent; }
-      header #header-sroll .navbar-default .navbar-toggle .icon-bar {
-        background-color: #fff; }
-    header #header-sroll .navbar-default .navbar-toggle:focus, header #header-sroll .navbar-default .navbar-default .navbar-toggle:hover {
-      background-color: #59BDA7; }
-  header #header-sroll .navbar {
-    margin-top: 0%; }
-  header #header-sroll .logo {
-    background-color: #DA4C68;
-    height: 30px;
-    width: 30px;
-    border-radius: 50%; }
-    header #header-sroll .logo img {
-      width: 100%;
-      border-radius: 50%; }
-  header #header-sroll .navbar-brand {
-    color: #fff;
-    font-family: 'Pacifico', cursive; }
-  header #header-sroll a {
-    color: white;
-    text-decoration: none;
-    font-size: 1.5em; }
-  header #header-sroll a:hover {
-    color: #DA4C68;
-    text-decoration: none; }
-  header #header-sroll.small {
-    height: 55px;
-    background-color: rgba(128, 200, 184, 0.8);
-    padding-top: 0.4%; }
-
 .hero-image {
   height: 100%;
   background: url("../img/fondoInicio4.png") repeat;
@@ -218,15 +169,11 @@ header #header-sroll {
 p {
   font-size: 1.3em; }
 
-@media screen and (min-width: 768px) {
-  .navbar-default .navbar-collapse, .navbar-default .navbar-form {
-    background-color: transparent; } }
-@media screen and (max-width: 767px) {
-  .navbar-default .navbar-collapse, .navbar-default .navbar-form {
-    background-color: #80c8b8; }
-
-  * {
-    font-size: 12px; } }
+@media (min-width: 768px) {
+  .navbar-nav {
+    float: right;
+    margin: 0;
+    font-size: 17px; } }
 @media screen and (min-width: 1200px) {
   .contact {
     padding: 10% 25%; }
