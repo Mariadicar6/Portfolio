@@ -30,7 +30,7 @@
 }
 .skillst1 .count-bar{
 	position:absolute;
-	background-color: #F45A79;
+	background: url("../img/fondoBarra.jpg");
 	height:10px;
 	left:0;
 	bottom:0;

@@ -40,7 +40,7 @@ header #header-sroll {
       width: 100%;
       border-radius: 50%; }
   header #header-sroll .navbar-brand {
-    color: #F45A79;
+    color: #fff;
     font-family: 'Pacifico', cursive; }
   header #header-sroll a {
     color: white;
@@ -56,20 +56,21 @@ header #header-sroll {
 
 .hero-image {
   height: 100%;
-  background: url("../img/fondoInicio.png") repeat;
+  background: url("../img/fondoInicio4.png") repeat;
+  background-position: fixed;
   padding-top: 150px;
   padding-bottom: 70px; }
   .hero-image .circle {
     height: 150px;
     width: 150px;
-    background-color: #F45A79;
+    background-color: #DA4C68;
     margin: auto;
     border-radius: 50%; }
     .hero-image .circle img {
       height: 100%;
       border-radius: 50%; }
   .hero-image h1 {
-    color: #F45A79;
+    color: #A63D52;
     font-family: 'Pacifico', cursive; }
   .hero-image h2 {
     color: #DA4C68; }
@@ -106,7 +107,7 @@ header #header-sroll {
   .about-me span:nth-child(2) {
     color: #59BDA7; }
   .about-me span:nth-child(3) {
-    color: #F45A79; }
+    color: #A63D52; }
   .about-me span:nth-child(4) {
     color: #DA4C68; }
   .about-me h6, .about-me cite {
@@ -179,7 +180,7 @@ header #header-sroll {
     width: 300px;
     display: inline-block; }
   .contact .btn-default {
-    background-color: #F45A79;
+    background-color: #A63D52;
     border: none;
     margin-top: 3%;
     font-size: 1.3em;

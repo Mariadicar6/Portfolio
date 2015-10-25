@@ -1,7 +1,7 @@
 $jade: #80c8b8;
 $jade-oscuro:#59BDA7;
-$rosado: #F45A79;
-$rosado-oscuro: #DA4C68;
+$rosado: #A63D52;
+$rosado-claro: #DA4C68;
 
 html, body{
     height: 100%;
@@ -51,7 +51,7 @@ header {
         }
 
         .logo{
-            background-color: $rosado-oscuro;
+            background-color: $rosado-claro;
             height: 30px;
             width: 30px;
             border-radius:50%;
@@ -63,7 +63,7 @@ header {
         }
 
         .navbar-brand{
-            color: $rosado;
+            color: #fff;
             font-family: 'Pacifico', cursive;
         }
 
@@ -75,7 +75,7 @@ header {
         }
 
         a:hover{
-            color: $rosado-oscuro;
+            color: $rosado-claro;
             text-decoration: none;
         }
 
@@ -90,14 +90,15 @@ header {
 
 .hero-image{
     height: 100%;
-    background: url("../img/fondoInicio.png") repeat;
+    background: url("../img/fondoInicio4.png") repeat;
+    background-position: fixed;
     padding-top: 150px;
     padding-bottom: 70px;
 
         .circle{
             height: 150px;
             width: 150px;
-            background-color: $rosado;
+            background-color: $rosado-claro;
             margin: auto;
             border-radius: 50%;
 
@@ -113,7 +114,7 @@ header {
         }
 
         h2{
-            color: $rosado-oscuro;
+            color: $rosado-claro;
         }
 
         .btn-default{
@@ -157,7 +158,7 @@ header {
 
     .lg{
         font-size: 2em;
-        color: $rosado-oscuro;
+        color: $rosado-claro;
     }
     .md{
         font-size: 1.6em;        
@@ -171,7 +172,7 @@ header {
             color: $rosado;
         }
         &:nth-child(4){
-            color: $rosado-oscuro;
+            color: $rosado-claro;
         }
     }
 
@@ -288,7 +289,7 @@ header {
     }
 
     .btn-default:hover{
-        background-color: $rosado-oscuro;
+        background-color: $rosado-claro;
         color: white;
         
     }
