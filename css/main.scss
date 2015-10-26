@@ -12,7 +12,6 @@ h2{
     font-weight: 900;
 }
 
-
 .hero-image{
     height: 100%;
     background: url("../img/fondoInicio4.png") repeat;
@@ -43,7 +42,7 @@ h2{
         }
 
         .btn-default{
-            background-color: $jade;
+            background-color: $jade-oscuro;
             border: none;
             margin-top: 3%;
             font-size: 1.3em;
@@ -51,7 +50,7 @@ h2{
         }
 
         .btn-default:hover{
-            background-color: $jade-oscuro;
+            background-color: $jade;
             border: none;
         }
 
@@ -98,6 +97,9 @@ h2{
         }
         &:nth-child(4){
             color: $rosado-claro;
+        }
+        &:nth-child(5){
+            color: $jade-oscuro;
         }
     }
 

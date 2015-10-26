@@ -26,13 +26,13 @@ h2 {
   .hero-image h2 {
     color: #DA4C68; }
   .hero-image .btn-default {
-    background-color: #80c8b8;
+    background-color: #59BDA7;
     border: none;
     margin-top: 3%;
     font-size: 1.3em;
     color: white; }
   .hero-image .btn-default:hover {
-    background-color: #59BDA7;
+    background-color: #80c8b8;
     border: none; }
   .hero-image .social-media {
     position: absolute;
@@ -61,6 +61,8 @@ h2 {
     color: #A63D52; }
   .about-me span:nth-child(4) {
     color: #DA4C68; }
+  .about-me span:nth-child(5) {
+    color: #59BDA7; }
   .about-me h6, .about-me cite {
     color: #6E6E6E; }
 
