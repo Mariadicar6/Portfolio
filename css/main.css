@@ -193,6 +193,13 @@ p {
 
   .about-me, .portfolio, .skill {
     padding: 10% 0%; } }
+@media screen and (max-width: 768px) {
+  .hero-image .circle {
+    height: 100px;
+    width: 100px; }
+
+  .hero-image h1, .hero-image h2 {
+    font-size: 22px; } }
 p {
   font-size: 1.3em; }
 
