@@ -5,6 +5,26 @@ html, body {
 h2 {
   font-weight: 900; }
 
+.navbar-default .navbar-brand {
+  color: #A63D52; }
+
+.navbar-default .navbar-brand:hover {
+  color: #DA4C68; }
+
+.navbar-default .navbar-nav > li > a {
+  color: #A63D52; }
+
+.navbar-default .navbar-nav > li > a:hover {
+  color: #DA4C68; }
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .active > a:hover {
+  color: #A63D52; }
+
+.navbar-brand {
+  font-family: 'Pacifico', cursive; }
+
 .hero-image {
   height: 100%;
   background: url("../img/fondoInicio4.png") repeat;
@@ -28,7 +48,7 @@ h2 {
   .hero-image .btn-default {
     background-color: #59BDA7;
     border: none;
-    margin-top: 3%;
+    margin-top: 1.5%;
     font-size: 1.3em;
     color: white; }
   .hero-image .btn-default:hover {
@@ -55,14 +75,6 @@ h2 {
     color: #DA4C68; }
   .about-me .md {
     font-size: 1.6em; }
-  .about-me span:nth-child(2) {
-    color: #59BDA7; }
-  .about-me span:nth-child(3) {
-    color: #A63D52; }
-  .about-me span:nth-child(4) {
-    color: #DA4C68; }
-  .about-me span:nth-child(5) {
-    color: #59BDA7; }
   .about-me h6, .about-me cite {
     color: #6E6E6E; }
 
@@ -112,8 +124,9 @@ h2 {
     opacity: 1; }
 
 .contact {
-  background: url("../img/fondoFinal.png") repeat;
-  background-attachment: fixed; }
+  background: url("../img/fondoFinal2.png") repeat;
+  background-attachment: fixed;
+  color: #fff; }
   .contact .form-control {
     background-color: transparent;
     border-left: none;
@@ -122,7 +135,8 @@ h2 {
     box-shadow: none;
     font-size: 1em;
     text-align: center;
-    height: 27px; }
+    height: 27px;
+    color: #fff; }
   .contact .form-control:nth-child(1) {
     width: 300px;
     display: inline-block; }
@@ -158,6 +172,12 @@ h2 {
 
 .pd-5 {
   padding: 5%; }
+
+.pr-12 {
+  padding-right: 12%; }
+
+.pl-10 {
+  padding-left: 10%; }
 
 .pr-7 {
   padding-right: 7%; }
@@ -195,6 +215,13 @@ p {
 
   .about-me, .portfolio, .skill {
     padding: 10% 0%; } }
+@media screen and (max-width: 768px) {
+  .hero-image .circle {
+    height: 100px;
+    width: 100px; }
+
+  .hero-image h1, .hero-image h2 {
+    font-size: 22px; } }
 p {
   font-size: 1.3em; }
 

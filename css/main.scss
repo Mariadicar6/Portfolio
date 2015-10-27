@@ -12,6 +12,31 @@ h2{
     font-weight: 900;
 }
 
+.navbar-default .navbar-brand {
+    color: $rosado;
+}
+
+.navbar-default .navbar-brand:hover {
+    color: $rosado-claro;
+}
+.navbar-default .navbar-nav>li>a{
+    color: $rosado;   
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+    color: $rosado-claro;   
+}
+
+.navbar-default .navbar-nav>.active>a, 
+.navbar-default .navbar-nav>.active>a:focus, 
+.navbar-default .navbar-nav>.active>a:hover{
+    color: $rosado;
+}
+
+.navbar-brand{
+    font-family: 'Pacifico', cursive;
+}
+
 .hero-image{
     height: 100%;
     background: url("../img/fondoInicio4.png") repeat;
@@ -44,7 +69,7 @@ h2{
         .btn-default{
             background-color: $jade-oscuro;
             border: none;
-            margin-top: 3%;
+            margin-top: 1.5%;
             font-size: 1.3em;
             color: white;
         }
@@ -86,21 +111,6 @@ h2{
     }
     .md{
         font-size: 1.6em;        
-    }
-
-    span{
-        &:nth-child(2){
-            color: $jade-oscuro;
-        }
-        &:nth-child(3){
-            color: $rosado;
-        }
-        &:nth-child(4){
-            color: $rosado-claro;
-        }
-        &:nth-child(5){
-            color: $jade-oscuro;
-        }
     }
 
     h6,cite{
@@ -180,8 +190,9 @@ h2{
 }
 
 .contact{
-    background: url("../img/fondoFinal.png") repeat;
+    background: url("../img/fondoFinal2.png") repeat;
     background-attachment: fixed;
+    color: #fff;
 
     .form-control{
         background-color: transparent;
@@ -192,6 +203,7 @@ h2{
         font-size: 1em;
         text-align: center;
         height: 27px;
+        color: #fff;
     }
 
     .form-control:nth-child(1){
@@ -241,6 +253,14 @@ h2{
 
 .pd-5{
     padding: 5%;
+}
+
+.pr-12{
+    padding-right: 12%;
+}
+
+.pl-10{
+    padding-left: 10%;
 }
 
 .pr-7{
@@ -294,6 +314,17 @@ p{
 
     .about-me, .portfolio , .skill{
     padding: 10% 0%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .hero-image .circle{
+            height: 100px;
+            width: 100px;
+    }
+
+    .hero-image h1 , .hero-image h2{
+        font-size: 22px;
     }
 }
 
